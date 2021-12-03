@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verify Mail</title>
+  </head>
+  <body>
+    <div class="verify-mail">
+      <div class="container">
+        <div class="verify">
+          <div class="verify-header">
+            <img src="./img/logo.svg" alt="logo" />
+          </div>
+          <div class="verify-body">
+            <div class="verify-head">
+              <img src="./img/mail-verify.svg" alt="mail" />
+              <h3>Verify Your Email Address</h3>
+            </div>
+            <div class="verify-message">
+              <p>Hey Pascal,</p>
+              <p>
+                Welcome on board! You’re almost ready to start enjoying
+                Easyflip. We need you to simply click the button below to verify
+                your email.
+              </p>
+              <button class="btn">verify my email</button>
+            </div>
+          </div>
+        </div>
+        <div class="verify-aside">
+          <p>
+            Questions or Feedback? Write to us anytime at
+            <a href="mailto:support@easyflip.ng">support@easyflip.ng</a>
+            or check our <a href="#">FAQs!</a>
+          </p>
+          <div class="get-app-links mail-app">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.easyflipMobile"
+            >
+              <div class="link">
+                <img class="store" src="/img/playstore.svg" alt="playstore" />
+                <div class="link-body google">
+                  <img src="/img/mail-get.svg" alt="google" />
+                  <img src="/img/store-google.svg" alt="google" />
+                </div>
+              </div>
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.easyflipMobile"
+            >
+              <div class="link">
+                <img class="app" src="/img/apple.svg" alt="apple" />
+                <div class="link-body appstore">
+                  <img src="/img/mail-download.svg" alt="appstore" />
+                  <img src="/img/store-app.svg" alt="appstore" />
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="verify-social-links">
+          <ul>
+            <li>
+              <a href="https://"
+                ><img src="./img/mail-bird.svg" alt="twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/easyflipng/?ref=page_internal"
+                ><img src="./img/mail-fb.svg" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/easyflipng/"
+                ><img src="./img/mail-insta.svg" alt="instagram"
+              /></a>
+            </li>
+          </ul>
+          <p>&copy; 2021 Easyflip. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+      body {
+        font-family: "Lato", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #010137;
+        background: #ffffff;
+        line-height: 1.5;
+        font-size: 16px;
+      }
+      a {
+        text-decoration: none;
+        color: #2c3e50;
+      }
+      .btn {
+        cursor: pointer;
+        padding: 0.7rem 1rem;
+        display: inline-block;
+        margin: 0.5rem 0;
+        outline: none;
+        border: none;
+        color: #ffffff;
+        background: #010137;
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 4px;
+        letter-spacing: 2px;
+      }
+      .container {
+        width: 90%;
+        overflow: hidden;
+        margin: auto;
+      }
+      .verify-mail {
+        background: #f8f8f8;
+        padding: 1rem 0;
+      }
+      .verify {
+        background: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+          rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        margin: 0.1rem;
+      }
+      .verify .verify-header {
+        background: #010137;
+        padding: 1rem 0;
+        text-align: center;
+      }
+      .verify .verify-header img {
+        width: 150px;
+      }
+      .verify .verify-body {
+        text-align: center;
+        padding: 1rem;
+      }
+      .verify-head {
+        margin: 1rem 0 2rem;
+      }
+      .verify .verify-head h3 {
+        font-size: 20px;
+      }
+      .verify .verify-head img {
+        width: 200px;
+      }
+      .verify-body p {
+        text-align: left;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 1rem;
+      }
+      .verify-body p:first-child {
+        margin-bottom: 1rem;
+      }
+      .verify-body .btn {
+        text-transform: capitalize;
+        padding: 11px 31px;
+        margin: 2rem 0;
+      }
+      .verify-aside {
+        font-size: 12px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem 0;
+      }
+      .verify-aside .mail-app {
+        margin-top: 3rem;
+      }
+      .verify-aside a {
+        color: #d45d58;
+      }
+      .verify-social-links {
+        text-align: center;
+        color: #5e5e8a;
+        font-size: 9px;
+        margin: 1rem 0;
+      }
+      .verify-social-links ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 0;
+      }
+      .verify-social-links li {
+        padding-right: 1rem;
+      }
+      .verify-social-links img {
+        height: 15px;
+        width: 15px;
+      }
+
+      .get-app-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        margin: 2rem 0;
+      }
+      .get-app-links .link {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        border: solid 1px #010137;
+        border-radius: 5px;
+        padding: 0.15rem 1rem;
+        margin-bottom: 1rem;
+        background: transparent;
+        height: 41px;
+      }
+      .get-app-links .links:first-child {
+        margin-right: 0.1rem;
+      }
+      .get-app-links .link img {
+        margin-right: 10px;
+      }
+      .get-app-links .link-body {
+        display: flex;
+        flex-direction: column;
+      }
+      .get-app-links .link-body img {
+        margin: 0;
+      }
+      .get-app-links .link img:nth-child(1) {
+        margin-bottom: 5px;
+      }
+      .get-app-links .link img.store {
+        width: 17.94px;
+        height: 19.89px;
+      }
+      .get-app-links .link img.app {
+        width: 16.92px;
+        height: 19.65px;
+      }
+      .get-app-links .link .google img:nth-child(1) {
+        width: 24.31px;
+        height: 4px;
+      }
+      .get-app-links .link .google img:nth-child(2) {
+        width: 52.99px;
+        height: 10.68px;
+      }
+      .get-app-links .link .appstore img:nth-child(1) {
+        width: 46.4px;
+        height: 4.21px;
+      }
+      .get-app-links .link .appstore img:nth-child(2) {
+        width: 47.71px;
+        height: 10.4px;
+      }
+
+      @media screen and (min-width: 1000px) {
+        .container {
+          width: 800px;
+        }
+        .get-app-links {
+          margin: 0;
+        }
+        .get-app-links .link {
+          height: 55px;
+        }
+        .get-app-links .link-body img:nth-child(1) {
+          margin-bottom: 8px;
+        }
+        .get-app-links .link img.store {
+          width: 25.63px;
+          height: 37.35px;
+        }
+        .get-app-links .link img.app {
+          width: 25.89px;
+          height: 36.9px;
+        }
+        .get-app-links .link .google img:nth-child(1) {
+          width: 31.5px;
+          height: 6.32px;
+        }
+        .get-app-links .link .google img:nth-child(2) {
+          width: 85.47px;
+          height: 20.06px;
+        }
+        .get-app-links .link .appstore img:nth-child(1) {
+          width: 69.21px;
+          height: 8.9px;
+        }
+        .get-app-links .link .appstore img:nth-child(2) {
+          width: 75.46px;
+          height: 19.53px;
+        }
+      }
+      @media screen and (min-width: 1400px) {
+        .btn {
+          width: 350px;
+          height: 56px;
+          padding: 11px 31px;
+        }
+      }
+    </style>
+  </body>
+</html>
